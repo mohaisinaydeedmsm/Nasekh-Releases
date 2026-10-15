@@ -1,0 +1,190 @@
+{
+  "_rules": {
+    "naming": "Clean consumer name only, zero technical jargon (Rule C33). Display will be '{name} • {multiplier_label}'",
+    "emojis": "Zero emojis in names or labels (Rule A4)",
+    "recommended": "Exactly one balanced model per module must have 'is_recommended': true",
+    "multipliers": "Clean 'multiplier_label' ('1x', '1.5x', '2x', '0.5x') as educational consumption indicators",
+    "billing": "Real billing is automated via OpenRouter key balance; PLAN_CREDIT_SPECS calculates credits dynamically",
+    "access": "All models are available to all paid users without tier gating"
+  },
+  "version": "1.3.0",
+  "updated_at": "2026-09-21",
+  "audio": [
+    {
+      "name": "Deepgram Nova-3",
+      "multiplier_label": "1.5x",
+      "model_id": "deepgram/nova-3",
+      "provider": "Deepgram",
+      "is_recommended": true,
+      "description": "Balanced baseline: Ultra-accurate multilingual speech-to-text with smart punctuation."
+    },
+    {
+      "name": "Whisper Turbo",
+      "multiplier_label": "1x",
+      "model_id": "openai/whisper-large-v3-turbo",
+      "provider": "OpenRouter",
+      "base_url": "https://openrouter.ai/api/v1",
+      "is_recommended": false,
+      "description": "Fast economy: Rapid transcription for clean audio recordings."
+    },
+    {
+      "name": "Whisper Large v3",
+      "multiplier_label": "2x",
+      "model_id": "openai/whisper-large-v3",
+      "provider": "OpenRouter",
+      "base_url": "https://openrouter.ai/api/v1",
+      "is_recommended": false,
+      "description": "Frontier speech recognition: Maximum robustness against heavy background noise and accents."
+    }
+  ],
+  "proofread": [
+    {
+      "name": "Gemini 3.7 Flash",
+      "multiplier_label": "1x",
+      "model_id": "google/gemini-3.7-flash",
+      "provider": "OpenRouter",
+      "base_url": "https://openrouter.ai/api/v1",
+      "is_recommended": true,
+      "description": "Balanced baseline: Fast, highly accurate grammar, punctuation, and speech slip correction."
+    },
+    {
+      "name": "DeepSeek V3",
+      "multiplier_label": "1x",
+      "model_id": "deepseek/deepseek-chat",
+      "provider": "OpenRouter",
+      "base_url": "https://openrouter.ai/api/v1",
+      "is_recommended": false,
+      "description": "Editorial specialist: Natural phrasing polish with deep Arabic nuance."
+    },
+    {
+      "name": "Claude Sonnet 4.5",
+      "multiplier_label": "2x",
+      "model_id": "anthropic/claude-sonnet-4.5",
+      "provider": "OpenRouter",
+      "base_url": "https://openrouter.ai/api/v1",
+      "is_recommended": false,
+      "description": "Frontier intelligence: Literary-grade proofreading and complex context reasoning."
+    },
+    {
+      "name": "GPT-4o",
+      "multiplier_label": "2x",
+      "model_id": "openai/gpt-4o",
+      "provider": "OpenRouter",
+      "base_url": "https://openrouter.ai/api/v1",
+      "is_recommended": false,
+      "description": "Frontier multimodal engine: Advanced multilingual restructuring and syntax calibration."
+    },
+    {
+      "name": "Gemini 2.5 Flash Lite",
+      "multiplier_label": "0.5x",
+      "model_id": "google/gemini-2.5-flash-lite",
+      "provider": "OpenRouter",
+      "base_url": "https://openrouter.ai/api/v1",
+      "is_recommended": false,
+      "description": "Ultra-fast economy: Rapid typo checking with minimal credit consumption."
+    }
+  ],
+  "translation": [
+    {
+      "name": "Gemini 3.7 Flash",
+      "multiplier_label": "1x",
+      "model_id": "google/gemini-3.7-flash",
+      "provider": "OpenRouter",
+      "base_url": "https://openrouter.ai/api/v1",
+      "is_recommended": true,
+      "description": "Balanced baseline: 1M token context, high-fidelity multilingual translation."
+    },
+    {
+      "name": "Claude Sonnet 4.5",
+      "multiplier_label": "2x",
+      "model_id": "anthropic/claude-sonnet-4.5",
+      "provider": "OpenRouter",
+      "base_url": "https://openrouter.ai/api/v1",
+      "is_recommended": false,
+      "description": "Frontier intelligence: Cultural localization, academic idioms, and flawless natural tone."
+    },
+    {
+      "name": "DeepSeek V3",
+      "multiplier_label": "1x",
+      "model_id": "deepseek/deepseek-chat",
+      "provider": "OpenRouter",
+      "base_url": "https://openrouter.ai/api/v1",
+      "is_recommended": false,
+      "description": "Fast natural translation with strong Arabic morphology."
+    },
+    {
+      "name": "GPT-4o",
+      "multiplier_label": "2x",
+      "model_id": "openai/gpt-4o",
+      "provider": "OpenRouter",
+      "base_url": "https://openrouter.ai/api/v1",
+      "is_recommended": false,
+      "description": "Frontier multilingual powerhouse: Complex terminology and document structure preservation."
+    },
+    {
+      "name": "Llama 3.3 70B",
+      "multiplier_label": "1x",
+      "model_id": "meta-llama/llama-3.3-70b-instruct",
+      "provider": "OpenRouter",
+      "base_url": "https://openrouter.ai/api/v1",
+      "is_recommended": false,
+      "description": "Open-weights champion: Accurate, concise multilingual translation."
+    }
+  ],
+  "vision": [
+    {
+      "name": "Gemini 3.7 Flash Vision",
+      "multiplier_label": "1x",
+      "model_id": "google/gemini-3.7-flash",
+      "provider": "OpenRouter",
+      "base_url": "https://openrouter.ai/api/v1",
+      "is_recommended": true,
+      "description": "Balanced baseline: Enhanced multimodal spatial reasoning, academic apparatus, and hairline rule grounding."
+    },
+    {
+      "name": "Gemini 3.8 Flash Vision",
+      "multiplier_label": "1.5x",
+      "model_id": "google/gemini-3.8-flash",
+      "provider": "OpenRouter",
+      "base_url": "https://openrouter.ai/api/v1",
+      "is_recommended": false,
+      "description": "Next-gen reasoning Flash: High-acuity document understanding and agentic layout segmentation."
+    },
+    {
+      "name": "Gemini 3.1 Pro Preview Vision",
+      "multiplier_label": "2x",
+      "model_id": "google/gemini-3.1-pro-preview",
+      "provider": "OpenRouter",
+      "base_url": "https://openrouter.ai/api/v1",
+      "is_recommended": false,
+      "description": "Frontier scholarly OCR: Dynamic tile patching, 70%+ dense critical apparatus, and complex layout segmentation."
+    },
+    {
+      "name": "Claude Sonnet 4.5 Vision",
+      "multiplier_label": "2x",
+      "model_id": "anthropic/claude-sonnet-4.5",
+      "provider": "OpenRouter",
+      "base_url": "https://openrouter.ai/api/v1",
+      "is_recommended": false,
+      "description": "Highest verbatim fidelity: Industry-lowest omission rate for multi-column academic text and fine footnotes."
+    },
+    {
+      "name": "Qwen 2.5 VL 72B",
+      "multiplier_label": "1x",
+      "model_id": "qwen/qwen2.5-vl-72b-instruct",
+      "provider": "OpenRouter",
+      "base_url": "https://openrouter.ai/api/v1",
+      "is_recommended": false,
+      "description": "Specialized Arabic vision: Exceptional non-Latin character recognition and right-to-left layout grounding."
+    },
+    {
+      "name": "Gemini 2.5 Flash Lite Vision",
+      "multiplier_label": "0.5x",
+      "model_id": "google/gemini-2.5-flash-lite",
+      "provider": "OpenRouter",
+      "base_url": "https://openrouter.ai/api/v1",
+      "is_recommended": false,
+      "description": "Fast economy OCR: Quick text extraction for clear scans and screenshots."
+    }
+  ]
+}
