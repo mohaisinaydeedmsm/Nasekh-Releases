@@ -1,7 +1,7 @@
 {
-  "version": "1.1.1",
-  "release_date": "2026-09-03",
-  "zip_url": "https://github.com/mohaisinaydeedmsm/Nasekh-Desktop/releases/download/v1.1.1/update_v1.1.1.zip",
-  "sig_url": "https://github.com/mohaisinaydeedmsm/Nasekh-Desktop/releases/download/v1.1.1/update_v1.1.1.zip.sig",
-  "release_notes": "Official public update channel consolidated on Nasekh-Desktop, with progressive OCR streaming, single-box layout, and cross-module text handoff."
+  "version": "1.3.4",
+  "release_date": "2026-10-13",
+  "zip_url": "https://github.com/mohaisinaydeedmsm/Nasekh-Releases/releases/download/v1.3.4/update_v1.3.4.zip",
+  "sig_url": "https://github.com/mohaisinaydeedmsm/Nasekh-Releases/releases/download/v1.3.4/update_v1.3.4.zip.sig",
+  "release_notes": "Release v1.3.4: Added AI Poster & Graphic Card Localization with background inpainting and floating Word canvas export, integrated Web-Grounded Cognitive Translation Director, added universal balance-aware token budgeting, upgraded cloud infrastructure to high-speed HTTPS TLS gateway, and hardened auto-updater rollback resilience."
 }
