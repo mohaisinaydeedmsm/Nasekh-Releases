@@ -1,7 +1,8 @@
 {
-  "version": "1.3.4",
-  "release_date": "2026-10-13",
-  "zip_url": "https://github.com/mohaisinaydeedmsm/Nasekh-Releases/releases/download/v1.3.4/update_v1.3.4.zip",
-  "sig_url": "https://github.com/mohaisinaydeedmsm/Nasekh-Releases/releases/download/v1.3.4/update_v1.3.4.zip.sig",
-  "release_notes": "Release v1.3.4: Added AI Poster & Graphic Card Localization with background inpainting and floating Word canvas export, integrated Web-Grounded Cognitive Translation Director, added universal balance-aware token budgeting, upgraded cloud infrastructure to high-speed HTTPS TLS gateway, and hardened auto-updater rollback resilience."
+  "version": "1.3.5",
+  "release_date": "2026-10-17",
+  "zip_url": "https://github.com/mohaisinaydeedmsm/Nasekh-Releases/releases/download/v1.3.5/update_v1.3.5.zip",
+  "sig_url": "https://github.com/mohaisinaydeedmsm/Nasekh-Releases/releases/download/v1.3.5/update_v1.3.5.zip.sig",
+  "release_notes": "Release v1.3.5: Hardened user authentication and token provisioning lifecycle, upgraded balance-aware token budget management, optimized cloud engine synchronization, enhanced UI keyboard navigation and accessibility, and strengthened automated updater rollback resilience."
 }
+
