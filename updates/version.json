@@ -1,8 +1,7 @@
 {
-  "version": "1.3.5",
-  "release_date": "2026-10-17",
-  "zip_url": "https://github.com/mohaisinaydeedmsm/Nasekh-Releases/releases/download/v1.3.5/update_v1.3.5.zip",
-  "sig_url": "https://github.com/mohaisinaydeedmsm/Nasekh-Releases/releases/download/v1.3.5/update_v1.3.5.zip.sig",
-  "release_notes": "Release v1.3.5: Hardened user authentication and token provisioning lifecycle, upgraded balance-aware token budget management, optimized cloud engine synchronization, enhanced UI keyboard navigation and accessibility, and strengthened automated updater rollback resilience."
+  "version": "1.3.6",
+  "release_date": "2026-10-25",
+  "zip_url": "https://github.com/mohaisinaydeedmsm/Nasekh-Releases/releases/download/v1.3.6/update_v1.3.6.zip",
+  "sig_url": "https://github.com/mohaisinaydeedmsm/Nasekh-Releases/releases/download/v1.3.6/update_v1.3.6.zip.sig",
+  "release_notes": "Release v1.3.6: Modernized Vision OCR catalog to top Gemini 3.x models (Gemini 3.8 Flash, 3.7 Flash, 3.5 Flash Lite, 3.1 Flash Lite, 3.6 Flash), enabled dynamic manuscript mode model switching (Gemini 3.1 Pro Preview, 4 Argon, 3.8 Flash), enforced User Model Primacy, resolved cross-thread failover signal reference marshalling, and eliminated multimodal OpenRouter 404 parameter errors."
 }
-
